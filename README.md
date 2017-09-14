@@ -1,4 +1,4 @@
-# WebOffice Inovitas Viewer
+# WebOffice iNovitas Viewer
 Custom tool für WebOffice Core Client um den iNovitas infra3d Viewer zu integrieren.
 
 <h2>Installation</h2>
