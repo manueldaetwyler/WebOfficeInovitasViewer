@@ -1,7 +1,7 @@
 # WebOffice Inovitas Viewer
-Custom tool für WebOffice um den iNovitas infra3d Viewer zu integrieren.
+Custom tool fÃ¼r WebOffice um den iNovitas infra3d Viewer zu integrieren.
 
-##Installation
+<h2>Installation</h2>
 Das Tool muss auf demselbem Server wie WebOffice bereitgestellt werden. Entweder im /pub Verzeichnis von WebOffice oder auf IIS als virtuelles Verzeichnis, z.B. /webofficeinovitas.
 
 In WebOffice erfolgt die Konfiguration als Externes Gui Modul im Abschnitt Projektkonfiguration.
@@ -13,12 +13,12 @@ In WebOffice erfolgt die Konfiguration als Externes Gui Modul im Abschnitt Proje
 Getestet mit WebOffice 10.4 und 10.5
    
 
-##Bedingungen und Lizenz
+<h2>Bedingungen und Lizenz</h2>
 
-Open Source Lizenz wird demnächst ergänzt. 
+Open Source Lizenz wird demnÃ¤chst ergÃ¤nzt. 
 Bis dann:
 * Es ist erlaubt, das Tool frei zu verwenden aber nicht in einer kommerziellen Art (kein Verkauf).
-* Alle Änderungen oder Erweiterungen müssen in dieses Repository zurückgespielt werden damit sie auch anderen Kunden zur Verfügung stehen.
+* Alle Ã„nderungen oder Erweiterungen mÃ¼ssen in dieses Repository zurÃ¼ckgespielt werden damit sie auch anderen Kunden zur VerfÃ¼gung stehen.
 
 
 Erstellt von Geocom und iNovitas 2017
