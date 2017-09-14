@@ -1,5 +1,5 @@
 # WebOffice Inovitas Viewer
-Custom tool für WebOffice um den iNovitas infra3d Viewer zu integrieren.
+Custom tool für WebOffice Core Client um den iNovitas infra3d Viewer zu integrieren.
 
 <h2>Installation</h2>
 Das Tool muss auf demselbem Server wie WebOffice bereitgestellt werden. Entweder im /pub Verzeichnis von WebOffice oder auf IIS als virtuelles Verzeichnis, z.B. /webofficeinovitas.
@@ -10,7 +10,7 @@ In WebOffice erfolgt die Konfiguration als Externes Gui Modul im Abschnitt Proje
 * Modus http GET
 * Anzeigemodus: IFrame-Floating
 
-Getestet mit WebOffice 10.4 und 10.5
+Getestet mit WebOffice 10.4 und 10.5. Läuft nur im Core Client.
    
 
 <h2>Bedingungen und Lizenz</h2>
