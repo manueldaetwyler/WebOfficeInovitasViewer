@@ -1,0 +1,134 @@
+/*******************************************************************************
+Project       : Smart Mobile Mapping
+Purpose       : First Demo Application Stylesheet
+Creation Date : 27.1.2012
+Author        : Benjamin Loesch
+Copyright     : Copyright (c) 2012 by FHNW. All rights reserved.
+*******************************************************************************/
+
+/*--- BROWSER RESET --------------------------------------------------------------------------------------------------*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+
+/*--- MAIN STYLES ----------------------------------------------------------------------------------------------------*/
+body {
+   font: 50% "Trebuchet MS",sans-serif;
+   position : absolute;
+   width : 100%;
+   height : 100%;
+   /*margin: 50px;*/
+   margin:0;
+   background-color: #e6e6e6;
+   overflow:hidden;
+}
+
+#buttonsdiv {
+   height: 48px;
+}
+
+#weboffice_module_infra3d {
+   position: absolute;
+   background-color: #e6e6e6;
+   overflow: hidden;
+   border: none;
+   width : 100%;
+   height : calc(100% - 48px);
+}
+
+#pickInfra3D {
+   display: none;
+}
+
+#pickInfra3D + label {
+   display: block;
+   margin: 5px;
+   cursor: pointer;
+   background: url("pin.png") no-repeat;
+   background-size: 25px;
+   background-position: center;
+   border-radius:4px;
+   border:2px solid #afafaf;
+   height: 32px;
+   width: 32px;
+   font-size: 16px;
+   text-align:center;
+}
+
+#pickInfra3D:checked + label{
+   background-color: #afafaf;
+   border-radius:4px;
+   border:2px solid #282828;
+}
+
+#goToPos {
+   display: none;
+}
+
+#goToPos + label {
+   display: block;
+   margin: 5px;
+   cursor: pointer;
+   background: url("target.png") no-repeat;
+   background-size: 25px;
+   background-position: center;
+   border-radius:4px;
+   border:2px solid #afafaf;
+   height: 32px;
+   width: 32px;
+   font-size: 16px;
+   text-align:center;
+}
+
+#goToPos:checked + label{
+   background-color: #afafaf;
+   border-radius:4px;
+   border:2px solid #282828;
+}
+
+#lookAtPos {
+   display: none;
+}
+
+#lookAtPos + label {
+   display: block;
+   margin: 5px;
+   cursor: pointer;
+   background: url("spyglass.png") no-repeat;
+   background-size: 25px;
+   background-position: center;
+   border-radius:4px;
+   border:2px solid #afafaf;
+   height: 32px;
+   width: 32px;
+   font-size: 16px;
+   text-align:center;
+}
+
+#lookAtPos:checked + label {
+   background-color: #afafaf;
+   border-radius:4px;
+   border:2px solid #282828;
+}
+
+#coordinates {
+   margin-left: 5px;
+   margin-right: 5px;
+   margin-top: 7px;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+}
+
+#divCOO {
+   display: block;
+   margin: 5px;
+   cursor: pointer;
+   border-radius:4px;
+   border:2px solid #afafaf;
+   height: 32px;
+   width: auto;
+   min-width: 200px;
+}
